@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+    form.col-xs-3#inputForm
+        div.form-group
+          label name
+          input.form-control#name
+        div.form-group
+          label weight
+          input.form-control#weight
+        div.form-group
+          label isVegetarian
+          input.form-control#isVegetarian
+        div.form-group
+          label meat
+          input.form-control#meat
+        div.form-group
+          label cheese
+          input.form-control#cheese
+        div.form-group
+          button(type='submit') Submit
+          

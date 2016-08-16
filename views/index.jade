@@ -5,14 +5,11 @@ block content
   p Welcome to #{title}
     form.col-xs-3#inputForm
         div.form-group
-          label name
+          label burger name
           input.form-control#name
         div.form-group
           label weight
           input.form-control#weight
-        div.form-group
-          label isVegetarian
-          input.form-control#isVegetarian
         div.form-group
           label meat
           input.form-control#meat
@@ -21,4 +18,12 @@ block content
           input.form-control#cheese
         div.form-group
           button(type='submit') Submit
+        div#output
           
+
+div#template.hidden
+  div.row
+    h2.name
+    p.weight
+    p.meat
+    p.cheese

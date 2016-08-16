@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 let burgerSchema = new mongoose.Schema({
   name: String,
   weight: Number,
-  isVegetarian: Boolean,
   meat: String,
   cheese: String
 });
